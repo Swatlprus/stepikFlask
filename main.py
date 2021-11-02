@@ -14,4 +14,8 @@ def departures():
 def tours():
     return render_template('tour.html')
 
+@app.route('/test/')
+def test():
+    return render_template('test.html')
+
 app.run() # запуск приложения Flask
